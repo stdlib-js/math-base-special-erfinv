@@ -52,14 +52,30 @@ where `c_0 = 1` and
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-erfinv
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import erfinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@deno/mod.js';
+var erfinv = require( '@stdlib/math-base-special-erfinv' );
 ```
 
 #### erfinv( x )
@@ -112,8 +128,8 @@ var y = erfinv( -0.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import erfinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@deno/mod.js';
+var linspace = require( '@stdlib/array-base-linspace' );
+var erfinv = require( '@stdlib/math-base-special-erfinv' );
 
 var x = linspace( -1.0, 1.0, 100 );
 
@@ -135,9 +151,9 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/base/special/erf`][@stdlib/math/base/special/erf]</span><span class="delimiter">: </span><span class="description">error function.</span>
--   <span class="package-name">[`@stdlib/math/base/special/erfc`][@stdlib/math/base/special/erfc]</span><span class="delimiter">: </span><span class="description">complementary error function.</span>
--   <span class="package-name">[`@stdlib/math/base/special/erfcinv`][@stdlib/math/base/special/erfcinv]</span><span class="delimiter">: </span><span class="description">inverse complementary error function.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/erf`][@stdlib/math/base/special/erf]</span><span class="delimiter">: </span><span class="description">error function.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/erfc`][@stdlib/math/base/special/erfc]</span><span class="delimiter">: </span><span class="description">complementary error function.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/erfcinv`][@stdlib/math/base/special/erfcinv]</span><span class="delimiter">: </span><span class="description">inverse complementary error function.</span>
 
 </section>
 
@@ -152,7 +168,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -215,11 +231,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/erf]: https://github.com/stdlib-js/math-base-special-erf/tree/deno
+[@stdlib/math/base/special/erf]: https://github.com/stdlib-js/math-base-special-erf
 
-[@stdlib/math/base/special/erfc]: https://github.com/stdlib-js/math-base-special-erfc/tree/deno
+[@stdlib/math/base/special/erfc]: https://github.com/stdlib-js/math-base-special-erfc
 
-[@stdlib/math/base/special/erfcinv]: https://github.com/stdlib-js/math-base-special-erfcinv/tree/deno
+[@stdlib/math/base/special/erfcinv]: https://github.com/stdlib-js/math-base-special-erfcinv
 
 <!-- </related-links> -->
 
