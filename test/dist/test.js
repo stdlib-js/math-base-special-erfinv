@@ -33,12 +33,12 @@ var erfinv = require( './../../dist' );
 
 // FIXTURES //
 
-var x1 = require( './../..xtures/julia/x_-0.5_0.5.json' );
-var x2 = require( './../..xtures/julia/x_-0.5_-0.75.json' );
-var x3 = require( './../..xtures/julia/x_0.5_0.75.json' );
-var x4 = require( './../..xtures/julia/x_0.75_0.9998.json' );
-var x5 = require( './../..xtures/julia/x_0.9998_0.9999..8.json' );
-var x6 = require( './../..xtures/julia/x_0.9999..8_1.json' );
+var x1 = require( './../fixtures/julia/x_-0.5_0.5.json' );
+var x2 = require( './../fixtures/julia/x_-0.5_-0.75.json' );
+var x3 = require( './../fixtures/julia/x_0.5_0.75.json' );
+var x4 = require( './../fixtures/julia/x_0.75_0.9998.json' );
+var x5 = require( './../fixtures/julia/x_0.9998_0.9999..8.json' );
+var x6 = require( './../fixtures/julia/x_0.9999..8_1.json' );
 
 
 // TESTS //
