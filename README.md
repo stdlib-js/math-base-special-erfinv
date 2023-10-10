@@ -80,7 +80,7 @@ c_k=\sum_{m=0}^{k-1}\frac{c_m c_{k-1-m}}{(m+1)(2m+1)} = \left\{1,1,\frac{7}{6},\
 To use in Observable,
 
 ```javascript
-erfinv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@umd/browser.js' )
+erfinv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -92,7 +92,7 @@ var erfinv = require( 'path/to/vendor/umd/math-base-special-erfinv/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -159,7 +159,7 @@ var y = erfinv( -0.0 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
