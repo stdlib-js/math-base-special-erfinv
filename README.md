@@ -78,7 +78,7 @@ c_k=\sum_{m=0}^{k-1}\frac{c_m c_{k-1-m}}{(m+1)(2m+1)} = \left\{1,1,\frac{7}{6},\
 ## Usage
 
 ```javascript
-import erfinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@deno/mod.js';
+import erfinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@v0.2.1-deno/mod.js';
 ```
 
 #### erfinv( x )
@@ -132,7 +132,7 @@ var y = erfinv( -0.0 );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import erfinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@deno/mod.js';
+import erfinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@v0.2.1-deno/mod.js';
 
 var x = linspace( -1.0, 1.0, 100 );
 
