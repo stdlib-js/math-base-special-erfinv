@@ -71,32 +71,14 @@ c_k=\sum_{m=0}^{k-1}\frac{c_m c_{k-1-m}}{(m+1)(2m+1)} = \left\{1,1,\frac{7}{6},\
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-erfinv
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var erfinv = require( '@stdlib/math-base-special-erfinv' );
+import erfinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@deno/mod.js';
 ```
 
 #### erfinv( x )
@@ -149,9 +131,9 @@ var y = erfinv( -0.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var uniform = require( '@stdlib/random-array-uniform' );
-var logEachMap = require( '@stdlib/console-log-each-map' );
-var erfinv = require( '@stdlib/math-base-special-erfinv' );
+import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
+import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
+import erfinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
@@ -167,91 +149,7 @@ logEachMap( 'x: %0.4f, erfinv(x): %0.4f', x, erfinv );
 
 <!-- C interface documentation. -->
 
-* * *
 
-<section class="c">
-
-## C APIs
-
-<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
-
-<section class="intro">
-
-</section>
-
-<!-- /.intro -->
-
-<!-- C usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```c
-#include "stdlib/math/base/special/erfinv.h"
-```
-
-#### stdlib_base_erfinv( x )
-
-Evaluates the [inverse error function][inverse-error-function].
-
-```c
-double out = stdlib_base_erfinv( 0.5 );
-// returns ~0.4769
-
-out = stdlib_base_erfinv( 0.8 );
-// returns ~0.9062
-```
-
-The function accepts the following arguments:
-
--   **x**: `[in] double` input value.
-
-```c
-double stdlib_base_erfinv( const double x );
-```
-
-</section>
-
-<!-- /.usage -->
-
-<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- C API usage examples. -->
-
-<section class="examples">
-
-### Examples
-
-```c
-#include "stdlib/math/base/special/erfinv.h"
-#include <stdlib.h>
-#include <stdio.h>
-
-int main() {
-    const double x[] = { -1.0, -0.78, -0.56, -0.33, -0.11, 0.11, 0.33, 0.56, 0.78, 1.0 };
-    double v;
-    int i;
-    for ( i = 0; i < 10; i++ ) {
-        v = stdlib_base_erfinv( x[ i ] );
-        printf( "x: %lf, erfinv(x): %lf\n", x[ i ], v );
-    }
-}
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -278,7 +176,7 @@ int main() {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -344,11 +242,11 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/erf]: https://github.com/stdlib-js/math-base-special-erf
+[@stdlib/math/base/special/erf]: https://github.com/stdlib-js/math-base-special-erf/tree/deno
 
-[@stdlib/math/base/special/erfc]: https://github.com/stdlib-js/math-base-special-erfc
+[@stdlib/math/base/special/erfc]: https://github.com/stdlib-js/math-base-special-erfc/tree/deno
 
-[@stdlib/math/base/special/erfcinv]: https://github.com/stdlib-js/math-base-special-erfcinv
+[@stdlib/math/base/special/erfcinv]: https://github.com/stdlib-js/math-base-special-erfcinv/tree/deno
 
 <!-- </related-links> -->
 
