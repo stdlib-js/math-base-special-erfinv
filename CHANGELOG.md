@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-02)
+## Unreleased (2026-01-26)
 
 <section class="reverts">
 
@@ -28,8 +28,8 @@
 -   [`24e19f9`](https://github.com/stdlib-js/stdlib/commit/24e19f9d7fd8a648489afe4ba29940a4bfbeab6f) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
--   [`2e1dd43`](https://github.com/stdlib-js/stdlib/commit/2e1dd438de6a412fcb94d486933a61709fd250ab) - **chore:** replace manual `for` loop in examples [(#6351)](https://github.com/stdlib-js/stdlib/pull/6351) _(by Harsh)_
--   [`e0d7522`](https://github.com/stdlib-js/stdlib/commit/e0d7522fc5f65cbb7e949eeed509a45b208008ec) - **bench:** update random value generation [(#6327)](https://github.com/stdlib-js/stdlib/pull/6327) _(by Harsh, Athan Reines)_
+-   [`2e1dd43`](https://github.com/stdlib-js/stdlib/commit/2e1dd438de6a412fcb94d486933a61709fd250ab) - **chore:** replace manual `for` loop in examples [(#6351)](https://github.com/stdlib-js/stdlib/pull/6351) _(by Harsh Yadav)_
+-   [`e0d7522`](https://github.com/stdlib-js/stdlib/commit/e0d7522fc5f65cbb7e949eeed509a45b208008ec) - **bench:** update random value generation [(#6327)](https://github.com/stdlib-js/stdlib/pull/6327) _(by Harsh Yadav, Athan Reines)_
 -   [`c13062e`](https://github.com/stdlib-js/stdlib/commit/c13062e5b90cbe28ec62f0b690211bd14b626cf3) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
 -   [`3e05048`](https://github.com/stdlib-js/stdlib/commit/3e05048df523b9a45e3f0621893d9dd99aae8d9c) - **docs:** remove comment _(by Athan Reines)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
@@ -48,7 +48,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 -   Athan Reines
 -   Gunj Joshi
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 
