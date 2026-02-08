@@ -78,6 +78,11 @@ c_k=\sum_{m=0}^{k-1}\frac{c_m c_{k-1-m}}{(m+1)(2m+1)} = \left\{1,1,\frac{7}{6},\
 ## Usage
 
 ```javascript
+import erfinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-erfinv/tags). For example,
+
+```javascript
 import erfinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@v0.3.1-deno/mod.js';
 ```
 
@@ -133,7 +138,7 @@ var y = erfinv( -0.0 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import erfinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@v0.3.1-deno/mod.js';
+import erfinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfinv@deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
